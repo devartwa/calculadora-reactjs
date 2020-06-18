@@ -1,0 +1,54 @@
+:root {
+    --color-button: #222;
+    --border-button: solid 1px #888;
+}
+
+.button {
+    font-size: 1.4em;
+    color: #fff;
+    background-color: var(--color-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.button:active {
+    background-color: #777;
+}
+
+.button:hover {
+    background-color: #777;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: #333;
+}
+
+.button.operation:active {
+    background-color: #777;
+}
+
+.button.operation:hover {
+    background-color: #777;
+}
+
+.button.operationresults {
+    background-color: #20548a;
+}
+
+.button.operationresults:active {
+    background-color: #348feb;
+}
+
+.button.operationresults:hover {
+    background-color: #348feb;
+}
